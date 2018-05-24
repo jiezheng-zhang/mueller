@@ -1,8 +1,8 @@
 {
-  "name": "angular-io-example",
+  "name": "mueller",
   "version": "1.0.0",
   "private": true,
-  "description": "Example project from an angular.io guide.",
+  "description": "webpage for mueller",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
@@ -15,6 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@angular-devkit/core": "^0.6.3",
     "@angular/animations": "~5.0.0",
     "@angular/common": "~5.0.0",
     "@angular/compiler": "~5.0.0",
@@ -27,7 +28,7 @@
     "@angular/platform-server": "~5.0.0",
     "@angular/router": "~5.0.0",
     "@angular/upgrade": "~5.0.0",
-    "angular-in-memory-web-api": "~0.5.0",
+    "angular-in-memory-web-api": "^0.5.4",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.0",
     "web-animations-js": "^2.3.1",
